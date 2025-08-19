@@ -1,0 +1,13 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Element		TAR	41	nouvelle taille enregistrement : 41
+Element		IDE-*		fichier sans identifiant
+Element	IDElement	CNW	Chaîne$Identifiant automatique (8 octets)	la rubrique IDElement a pour nouveau type Chaîne
+Element	MatriculeElement	RUB+		MatriculeElement est une nouvelle clé
+Element	NomElement	RUB-		la rubrique NomElement est supprimée
+Element	PostnomELement	RUB-		la rubrique PostnomELement est supprimée
+Element	PrenomElement	RUB-		la rubrique PrenomElement est supprimée
+Element	SexeElement	RUB-		la rubrique SexeElement est supprimée
+Element	TelElement	RUB-		la rubrique TelElement est supprimée
+Element	EtatcivilElement	RUB-		la rubrique EtatcivilElement est supprimée
+Element	NbrenfantElement	RUB-		la rubrique NbrenfantElement est supprimée
+Element	LieudenaissanceElement	RUB-		la rubrique LieudenaissanceElement est supprimée

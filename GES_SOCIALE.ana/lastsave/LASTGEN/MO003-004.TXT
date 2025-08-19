@@ -1,0 +1,5 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+Demande		TAR	34	nouvelle taille enregistrement : 34
+Demande	IDDeces	RUB+		IDDeces est une nouvelle clé
+Utilisateur		NFI		nouveau fichier
+Contrainte_Deces_Demande		NWL	Deces (IDDeces) et Demande (IDDeces)	Nouvelle liaison entre les fichiers Deces (IDDeces) et Demande (IDDeces)

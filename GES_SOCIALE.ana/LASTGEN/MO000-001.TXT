@@ -1,2 +1,42 @@
 //MO000-001.TXT ANA00000 TO ANA00001
+Dependant		NFI		nouveau fichier
+Personne		NFI		nouveau fichier
+Unite		NFI		nouveau fichier
+Etat_de_besoin		NFI		nouveau fichier
+Contenir		NFI		nouveau fichier
 Element		NFI		nouveau fichier
+Materiel		NFI		nouveau fichier
+Etre_rattache		NFI		nouveau fichier
+Demande		NFI		nouveau fichier
+Paiement		NFI		nouveau fichier
+Detenir		NFI		nouveau fichier
+Renferme		NFI		nouveau fichier
+Deces		NFI		nouveau fichier
+Assumer		NFI		nouveau fichier
+Compte		NFI		nouveau fichier
+Grade		NFI		nouveau fichier
+T_fonction		NFI		nouveau fichier
+Type_Compte		NFI		nouveau fichier
+banque		NFI		nouveau fichier
+Utilisateur		NFI		nouveau fichier
+Contrainte_Personne_Dependant		NWL	Personne (IDPersonne) et Dependant (IDPersonne)	Nouvelle liaison entre les fichiers Personne (IDPersonne) et Dependant (IDPersonne)
+Contrainte_Personne_Element		NWL	Personne (IDPersonne) et Element (IDPersonne)	Nouvelle liaison entre les fichiers Personne (IDPersonne) et Element (IDPersonne)
+Contrainte_Element_Dependant		NWL	Element (IDElement) et Dependant (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Dependant (IDElement)
+Contrainte_Etat_de_besoin_Contenir		NWL	Etat_de_besoin (IDEtat_de_besoin) et Contenir (IDEtat_de_besoin)	Nouvelle liaison entre les fichiers Etat_de_besoin (IDEtat_de_besoin) et Contenir (IDEtat_de_besoin)
+Contrainte_Materiel_Contenir		NWL	Materiel (IDMateriel) et Contenir (IDMateriel)	Nouvelle liaison entre les fichiers Materiel (IDMateriel) et Contenir (IDMateriel)
+Contrainte_Element_Etre_rattache		NWL	Element (IDElement) et Etre_rattache (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Etre_rattache (IDElement)
+Contrainte_Element_Demande		NWL	Element (IDElement) et Demande (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Demande (IDElement)
+Contrainte_Demande_Etat_de_besoin		NWL	Demande (IDDemande) et Etat_de_besoin (IDDemande)	Nouvelle liaison entre les fichiers Demande (IDDemande) et Etat_de_besoin (IDDemande)
+Contrainte_Materiel_Renferme		NWL	Materiel (IDMateriel) et Renferme (IDMateriel)	Nouvelle liaison entre les fichiers Materiel (IDMateriel) et Renferme (IDMateriel)
+Contrainte_Etat_de_besoin_Paiement		NWL	Etat_de_besoin (IDEtat_de_besoin) et Paiement (IDEtat_de_besoin)	Nouvelle liaison entre les fichiers Etat_de_besoin (IDEtat_de_besoin) et Paiement (IDEtat_de_besoin)
+Contrainte_Element_Detenir		NWL	Element (IDElement) et Detenir (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Detenir (IDElement)
+Contrainte_Demande_Renferme		NWL	Demande (IDDemande) et Renferme (IDDemande)	Nouvelle liaison entre les fichiers Demande (IDDemande) et Renferme (IDDemande)
+Contrainte_Element_Assumer		NWL	Element (IDElement) et Assumer (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Assumer (IDElement)
+Contrainte_Deces_Demande		NWL	Deces (IDDeces) et Demande (IDDeces)	Nouvelle liaison entre les fichiers Deces (IDDeces) et Demande (IDDeces)
+Contrainte_Grade_Detenir		NWL	Grade (CodeGrade) et Detenir (CodeGrade)	Nouvelle liaison entre les fichiers Grade (CodeGrade) et Detenir (CodeGrade)
+Contrainte_Element_Deces		NWL	Element (IDElement) et Deces (IDElement)	Nouvelle liaison entre les fichiers Element (IDElement) et Deces (IDElement)
+Contrainte_Compte_Paiement		NWL	Compte (IDCompte) et Paiement (IDCompte)	Nouvelle liaison entre les fichiers Compte (IDCompte) et Paiement (IDCompte)
+Contrainte_T_fonction_Assumer		NWL	T_fonction (CodeFonction) et Assumer (CodeFonction)	Nouvelle liaison entre les fichiers T_fonction (CodeFonction) et Assumer (CodeFonction)
+Contrainte_Type_Compte_Compte		NWL	Type_Compte (CodType) et Compte (CodType)	Nouvelle liaison entre les fichiers Type_Compte (CodType) et Compte (CodType)
+Contrainte_banque_Compte		NWL	banque (IDbanque) et Compte (IDbanque)	Nouvelle liaison entre les fichiers banque (IDbanque) et Compte (IDbanque)
+Contrainte_Unite_Etre_rattache		NWL	Unite (CodeUnite) et Etre_rattache (CodeUnite)	Nouvelle liaison entre les fichiers Unite (CodeUnite) et Etre_rattache (CodeUnite)
