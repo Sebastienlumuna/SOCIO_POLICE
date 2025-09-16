@@ -1,2 +1,4 @@
-//MO003-004.TXT ANA00003 TO ANA00004
-Contrainte_Personne_Deces		MCL	0,n->0,1	
+//MO004-005.TXT ANA00004 TO ANA00005
+Demande		TAR	85	nouvelle taille enregistrement : 85
+Demande	DateDemande	CLEN*		la rubrique DateDemande est maintenant une clé
+Demande	DétailDemande	RUB+		DétailDemande est une nouvelle rubrique
